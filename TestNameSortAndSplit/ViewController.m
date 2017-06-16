@@ -149,6 +149,7 @@
     return cell;
 }
 
+//对数组重新提取首字母和重新分组 返回已分组好的数据
 - (NSMutableArray *)getChineseStringArr:(NSMutableArray *)arrToSort {
     NSMutableArray *chineseStringsArray = [NSMutableArray array];
     for(int i = 0; i < [arrToSort count]; i++) {
